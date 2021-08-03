@@ -1,0 +1,52 @@
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+
+.input-field input:focus + label {
+    color: #2196f3  !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #2196f3  !important;
+    box-shadow: 0 1px 0 0 #2196f3  !important
+}
+
+nav{
+    background: black;
+    
+}
+#navegacao{
+    margin: 25px;
+    font-size: 25px;
+    text-decoration: uppercase;
+}
+
+
+
+/* ESTILOS DO RODAPÉ*/
+#copyrightID{
+    margin: 0px 5px 15px 5px;
+    font-size: 16px;
+}
+
+/* LINKS */
+a{
+    color: chartreuse;
+}
+
+a:hover{
+    color: darkolivegreen;
+}
+
+.fab{
+    font-size: 34px;
+    color: white;
+}
+
+.fab:hover{
+    color: chartreuse;
+}
+
